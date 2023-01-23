@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	p{
+	font-size: 40px;
+	color: white;
+	}
+	h1{
+	font-size: 80px;
+	color: white;
+	}
+	p {text-align: center;}
+	h1 {text-align: center;}
+	h3 {text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 110%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  z-index: 1;
+}
+.content1 {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  z-index: 2;
+}
+.content2 {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  z-index: 3;
+}
+.überuns {
+position: fixed;
+top: 6%;
+left: 96%;
+}
+.hilfe {
+position: fixed;
+top: 15%;
+left: 93.7%;
+}
+.oben {
+position: fixed;
+top: 0;
+left: 0;
+}
+.rechts {
+position: fixed;
+top: 0;
+right: 0;
+}
+.events {
+position: fixed;
+top: 28%;
+left: 4.5%;
+}
+.eventsbutton {
+position: fixed;
+width: 25%;
+height: 27%;
+top: 28%;
+left: 4.5%;
+background-color: black;
+opacity: 0;
+  transition: 0.3s;
+}
+.eventsbutton:hover {opacity: 0.3;
+cursor: pointer;
+height:
+width:
+}
+.eventsbutton:active {
+opacity: 0.7;
+}
+.tierlist {
+position: fixed;
+top: 57%;
+left: 4.5%;
+}
+.tierlistbutton {
+position: fixed;
+width: 25%;
+height: 39%;
+top: 57%;
+left: 4.5%;
+background-color: black;
+opacity: 0;
+  transition: 0.3s;
+}
+.tierlistbutton:hover {opacity: 0.3; cursor: pointer;}
+.tierlistbutton:active {
+opacity: 0.7;
+}
+.jonas {
+position: fixed;
+top: 28%;
+left: 33%;
+}
+.newsturnier {
+position: fixed;
+top: 120%;
+left: 65%;
+animation: move 36s;
+animation-iteration-count: infinite;
+}
+@keyframes move{
+0%{
+top: 120%;
+left: 65%;
+}
+2%{
+top: 28%;
+left: 65%;
+}
+30%{
+top: 28%;
+left: 65%;
+}
+32%{
+top: 120%;
+left: 65%;
+}
+100%{
+top: 120%;
+left: 65%;
+}
+}
+.newsbannlist {
+position: fixed;
+top: 120%;
+left: 65%;
+animation: movee 36s;
+animation-iteration-count: infinite;
+}
+@keyframes movee{
+0%{
+top: 120%;
+left: 65%;
+}
+32%{
+top: 120%;
+left: 65%;
+}
+33%{
+top: 28%;
+left: 65%;
+}
+64%{
+top: 28%;
+left: 65%;
+}
+66%{
+top: 120%;
+left: 65%;
+}
+100%{
+top: 120%;
+left: 65%;
+}
+}
+.newsjonas {
+position: fixed;
+top: 120%;
+left: 65%;
+animation: moveee 36s;
+animation-iteration-count: infinite;
+}
+@keyframes moveee{
+0%{
+top: 120%;
+left: 65%;
+}
+66%{
+top: 120%;
+left: 65%;
+}
+68%{
+top: 28%;
+left: 65%;
+}
+98%{
+top: 28%;
+left: 65%;
+}
+100%{
+top: 120%;
+left: 65%;
+}
+}
+.uberunsbutton {
+position: fixed;
+top: 28%;
+left: 33%;
+width: 25%;
+height: 39%;
+background-color: black;
+opacity: 0;
+  transition: 0.3s;
+}
+.uberunsbutton:hover {opacity: 0.3; cursor: pointer;}
+.decks {
+position: fixed;
+top: 70%;
+left: 33%;
+}
+.uberunsbutton:active {
+opacity: 0.7;
+}
+.ourdecksbutton {
+position: fixed;
+width: 25%;
+height: 27%;
+top: 70%;
+left: 33%;
+background-color: black;
+opacity: 0;
+transition: 0.3s;
+}
+.ourdecksbutton:hover {opacity: 0.4; cursor: pointer;}
+.ourdecksbutton:active {
+opacity: 0.7;
+}
+h3{
+top: 50%;
+left: 96%
+}
+.helpbutton {
+position: fixed;
+width: 50px;
+height: 50px;
+top: 15.4%;
+left: 96.5%;
+background-color: black;
+opacity: 0;
+  transition: 0.3s;
+}
+.helpbutton:hover {opacity: 0.3; cursor: pointer;}
+.helpbutton:active {
+opacity: 0.7;
+}
+h4{
+font-size: 5px;
+}
+button: hover{
+cursor: pointer;
+}
+	body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+</style>
+		<title>GMD-Website</title>
+</head>
+<body>
+
+
+
+
+
+<div class="content">
+
+  <img src="OBEN.png" class="oben"
+  width="100%"
+  height="25%">
+    <img src="OBENN.png" class="rechts"
+  width="4%"
+  height="100%">
+   <img src="ygospielen.jpg" class="events"
+  width="25%"
+  height="27%">
+   <img src="tierlist.png" class="tierlist"
+  width="25%"
+  height="39%">
+     <img src="deck.png" class="decks"
+  width="25%"
+  height="27%">
+     <img src="jonas.jpg" class="jonas"
+  width="25%"
+  height="39%">
+       <img src="newsturnier.png" class="newsturnier"
+  width="25%"
+  height="67%">
+         <img src="newsbannlist.png" class="newsbannlist"
+  width="25%"
+  height="67%">
+         <img src="newsjonas.png" class="newsjonas"
+  width="25%"
+  height="67%">
+</div>
+
+<div class="content1">
+  <h1></h1>
+
+ 
+ <img src="hilfe.png" class="hilfe"
+  width="8.5%"
+  height="7.5%">  
+</div>
+<div class="content2">
+ <button onclick="window.location.href='https://germanduel.github.io/GMD-Web/events.html';" class="eventsbutton">
+	</button>
+	    <button onclick="window.location.href='https://docs.google.com/spreadsheets/d/1MkivdBa_z0NSkjybUhA4IRKeVdqs4JDok4h5zolhyvo/edit#gid=1243155458';" class="tierlistbutton">
+	</button>
+	    <button onclick="window.location.href='https://germanduel.github.io/GMD-Web/%C3%BCber%20uns.html ';" class="uberunsbutton">
+	</button>
+	    <button onclick="window.location.href='https://germanduel.github.io/GMD-Web/ourdecks.html';" class="ourdecksbutton">
+	</button>
+	   <button onclick="window.location.href='https://germanduel.github.io/GMD-Web/hilfe.html';" class="helpbutton">
+	</button>
+</div>
+
+</body>
+</html>
